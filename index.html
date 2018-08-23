@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="_css/index.css">
+    <title>kindle</title>
+    <script type="text/javascript" src="_js/validar.js"></script>
+</head>
+<body>
+    <nav>
+         <div> 
+        <h6>Bem vindo, caso já seja cadastrado, clique e será redirecionado para login</h6>
+
+                <a href="login.html" id="login">Login</a>
+
+            </div>
+    </nav>
+
+    <div id="center-logo">
+         <img id="imglogo" src="_imagens/kindle.svg">
+    <h5>
+        Formulário de teste para vaga estagiário desenvolvimento.
+    </h5>
+   
+    </div>
+
+    <div id="cadastro">
+            <form name="formulario" method="post" action="cadastro.php" onsubmit="return validacao ()">
+    		
+            <div id="sub-div-0">
+                <label for="sub-div-1">Nome:</label>
+                <input type="text" name="Fnome" size="20" maxlength="95" placeholder="Adalberto...">
+            </div>
+
+    		<div id="sub-div-0">
+        		<label for="Flogin">Login:</label>
+        		<input type="name" name="Flogin" size="20" maxlength="15" placeholder="20matar70correr...">
+            </div>
+
+            <div id="sub-div-2">
+                <label for="Fsenha">Senha:</label>
+                <input type="password" name="Fsenha" placeholder="Não bota 123 :c ">
+           </div>
+           <div id="sub-div-2">
+                <label id="Rsenha" for="Fsenha">Repetir senha:</label>
+                <input type="password" name="Fsenha1" placeholder="Botou 123 certeza">
+            </div>
+
+    	    <div id="sub-div-0">
+                <label for="Femail">Email:</label>
+        		<input type="text" name="Femail" size="20" maxlength="55" placeholder="joelma@exemplo.com">
+    		</div>
+
+            <div id="sub-div-1">
+                <label for="submit"></label>
+    		    <input type="submit" name="Fenviar" id="cadastrar-botao" size="20" value="Cadastrar">
+    	    </div>
+
+        </form>
+    </div>
+<div id="footer">
+    <a href="http://www.kindle.com.br/site/" target="_blank">
+        <img id="img-footer" src="_imagens/background.gif">  
+    </a>
+</div>
+
+</body>
+</html>

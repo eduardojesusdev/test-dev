@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="_css/login.css">
+    <title>kindle</title>
+    <script type="text/javascript" src="_js/validar.js"></script>
+</head>
+<nav>
+        <h6>Bem vindo, caso não seja cadastrado, clique no botao à esquerda para se cadastrar.</h6>
+            <div>  
+                <a href="index.html" id="cadastrar">Cadastrar-se</a>
+            </div>
+    </nav>
+<body>
+<div id="logo">
+<img id="logoimg" src="_imagens/kindle.svg">
+<h1>Página de login PHP<br>Teste para estágio.</h1>
+</div>
+
+<div id="login">
+	<form name="login" method="post" action="login.php" onsubmit="return valida_login()">
+		<div>
+		<label for="name">Login:</label>
+		<input type="name" name="Flogin" size="20" placeholder="ximbinha29">
+		</div>
+    <div>
+		<label for="password">Senha:</label>
+		<input type="password" name="senha" size="20" maxlength="20" placeholder=" Já esqueceu mano?">
+    </div>
+    <div id="submitbotao">
+      <label for="submit"></label>
+		<input id="logar-botao" type="submit" name="login" value="Login"> 
+		</div>
+	</form>
+</div>
+
+<div id="pos-login">
+<p>if(teste()){ alert(" Hellow dev's :D ")</p>
+</div>
+
+<div id="footer">
+    <a href="http://www.kindle.com.br/site/" target="_blank">
+        <img id="img-footer" src="_imagens/background.gif">  
+    </a>
+</div>
+
+</body>
+</html>

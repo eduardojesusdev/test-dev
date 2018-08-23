@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+	
+	font-family: 'Montserrat', sans-serif;
+	background-color:grey ;
+	
+}
+#logoimg{
+	position: initial;
+	float: center;
+	left: 0px;
+	right: 0px;
+	margin-top: 0px; 
+	margin-bottom: -15px; 
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+#logoimg:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+#topo{
+	left: 0;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	border-color: #2a282a;
+	border-style: solid;
+	margin-bottom: 30px;
+	background-color: #2a282a;
+	color:#ed335d;
+	z-index: 1;
+}
+.botao-sair{
+	top: 11px;
+	float: right;
+	position: fixed;
+	right: 30px;
+	font-size: 20px;
+	text-decoration: none;
+	border-color: white;
+	background-color: #fbc02d;
+	padding: 30px;
+	margin: 5px;
+	transition: 0.3s;
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+#cadastro {
+	
+	align-items: center;
+	width: 450px;
+	margin-left: 25%;
+	margin-bottom: 5%;
+	border-color: #2a282a;
+	border-style: solid;
+	border-radius: 10px;
+	background-color: #2a282a;
+	color:#ed335d;
+}
+
+#cadastro form {
+    
+    width: 400px;
+    padding: 1em;
+    float: center;
+
+}
+
+#cadastro form div + div {
+    margin-top: 15px;
+    float: center;
+}
+
+#cadastro label {
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+}
+
+#Rsenha	{
+	height: 5px;
+}
+
+#cadastro input, textarea {
+	height: 25px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+  
+    background-color: white; 
+ 	border-radius: 7px;
+    border: 2px solid #ed335d;
+}
+
+#cadastro input#enviar{
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	width: 420px;
+	background-color: #ed335d;
+}
+
+#cadastrar input:focus, textarea:focus {
+    background-color: #fbc02d;
+}
+
+/* essa parte eu só implementei*/
+
+.nav_tabs * {
+	margin-top: 0;
+	padding: 0;
+}
+
+.nav_tabs{margin-top: 10%;
+	width: 1000px;
+	height: 600px;
+	
+	margin-left: 18%;
+	background-color:#2a282a; 
+	position: relative;
+}
+
+.nav_tabs ul{
+	list-style: none;
+}
+
+.nav_tabs ul li {
+	float: left;
+	
+}
+
+.nav_tabs label{
+	width: 100px;
+	height: 30px;
+	padding: 20px; 
+	background-color: #2a282a;
+	display: block;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+
+.rd_tabs:checked ~ label{
+	background-color: #fbc02d;
+}
+
+.rd_tabs{
+	display: none;
+}
+
+.content{
+	border-top: 5px solid  #fbc02d;
+	background-color: white;
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+}
+.rd_tabs:checked ~ .content{
+	display: block;
+}
+
+article{
+	padding: 50px;
+	
+}
+
+/*footer*/
+
+#footer{
+	margin-bottom: -4px;
+	position: relative;
+	margin-top: 10%;
+	margin-left: -10px;
+	margin-right: -8px;
+	width: 100.5%;
+	align-items: center;
+	bottom:-15px; 
+	background-color: #2a282a;
+}
+
+#img-footer{
+	left: 35%;
+	position: relative;
+	align-items: center;
+	bottom:-4px; 
+	background-color: #2a282a;
+	
+}
